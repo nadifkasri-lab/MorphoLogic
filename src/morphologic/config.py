@@ -47,9 +47,9 @@ class Parameters:
 
     # Quality control
     enforce_primaries_until: int = 1                                             # Force first # nodes from soma to be primary (nodes)
-    min_bp_distance: int = 3                                                     # Enforce minimum node spacing between branch points (nodes)
+    min_bp_distance: int = 2                                                     # Enforce minimum node spacing between branch points (nodes)
     min_branch_length: int = 3                                                   # Drop small branches (nodes)
-    min_segment_length: float = 0.2                                              # Enforce minimum segment length (µm)
+    min_segment_length: float = 0.6                                              # Enforce minimum segment length (µm)
     max_root_offset_um: float = 50                                               # Raise overly long first segments from soma (µm)
 
 
