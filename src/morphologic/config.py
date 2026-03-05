@@ -13,7 +13,7 @@ from .exceptions import ConfigError, DataNotFound
 
 @dataclass(frozen=True)
 class Pathing:
-    directory: Path = Path("/scratch2/msterling/example_dataset")       # Parent directory containing all data
+    directory: Path = Path("Path/to/example_dataset")                            # Parent directory containing all data
     image_suffix: str = "_8bit"                                                  # Image file suffix
     soma_roi_suffix: str = "_somas"                                              # File suffix for soma ROIs
     puncta_roi_suffix: str = "_corrected_colocResults_0"                         # Optional: File suffix for puncta ROIs
@@ -23,7 +23,7 @@ class Pathing:
 
 @dataclass(frozen=True)
 class Processing:
-    overwrite: bool = True                                                      # Recompute even if cell outputs already exist
+    overwrite: bool = False                                                      # Recompute even if cell outputs already exist
     aggregate: bool = True                                                       # Run post-processing aggregation of data
     visualize: bool = True                                                       # Toggle per-cell figure generation
     extract_puncta: bool = True                                                  # Toggle morphology-aware puncta mapping

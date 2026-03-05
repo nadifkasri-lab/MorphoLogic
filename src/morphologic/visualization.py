@@ -835,7 +835,10 @@ def visualize_mapping(
         axes = [ax_arr]
     else:
         ncols = int(np.ceil(n_panels / 2))
-        fig = plt.figure(figsize=(4 * ncols, 8))
+
+        # Sholl-like base and scale with the number of columns
+        base_w, base_h = 8.0, 6.0
+        fig = plt.figure(figsize=(base_w * (ncols / 2.0), base_h))
         gs = GridSpec(2, ncols, figure=fig, hspace=0.35, wspace=0.35)
 
         # Fill order: (0,0), (1,0), (0,1), (1,1), ...
