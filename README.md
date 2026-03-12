@@ -10,7 +10,7 @@
   <!-- Badges: update links as appropriate -->
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-GPL--3.0-blue.svg"></a>
   <a href="https://doi.org/10.5281/zenodo.18553146"><img alt="Example Dataset" src="https://img.shields.io/badge/Example%20dataset-10.5281%2Fzenodo.18553146-red"></a>
-  <a href="https://www.protocols.io/"><img alt="Protocol" src="https://img.shields.io/badge/Protocol-protocols.io-brightgreen"></a>
+  <a href="https://dx.doi.org/10.17504/protocols.io.q26g77ppqgwz/v1"><img alt="Protocol" src="https://img.shields.io/badge/Protocol-protocols.io-brightgreen"></a>
 </p>
 
 <p align="center">
@@ -193,14 +193,14 @@ Windows (PowerShell)
 
 ```bash
 python -m venv .venv
-..venv\Scripts\Activate.ps1
+.venv\Scripts\Activate.ps1
 ```
 
 Windows (Command Prompt)
 
 ```bash
 python -m venv .venv
-..venv\Scripts\activate.bat
+.venv\Scripts\activate.bat
 ```
 
 ### 4) Install Dependencies
