@@ -254,9 +254,7 @@ Unzip the dataset locally and set **Data directory** to the extracted folder.
 
 If you use MorphoLogic in academic work, please cite:
 
-Manuscript: REPLACE_WITH_PUBLICATION
-
-DOI: REPLACE_WITH_DOI
+Sterling ML, Srivastava S, Kogo N, van Wezel R, Nadif Kasri N. MorphoLogic (v1.0) [Software]. Protocols.io; 2026. doi:10.17504/protocols.io.q26g77ppqgwz/v1
 
 ## License
 
