@@ -119,7 +119,7 @@ The exported tables are structured for downstream group comparisons and stratifi
 
 ### 1) Install Python
 
-Download and install Python from the official website: https://www.python.org/downloads/ 
+Download and install Python from the official website: https://www.python.org/downloads/.  
 We recommend Python 3.12, but 3.10 and 3.11 work as well. 
 *(Windows tip: During installation, make sure “Add Python to PATH” is checked.)*
 
