@@ -7,7 +7,7 @@ name = "morphologic"
 version = "1.0.0"
 description = "Morphology-aware mapping tool"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10,<3.13"
 authors = [{ name = "Max Sterling", email="max.sterling@donders.ru.nl" },
             { name = "Sheersh Srivastava", email="sheersh.srivastava@ru.nl"}
         ]

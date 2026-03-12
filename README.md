@@ -119,7 +119,8 @@ The exported tables are structured for downstream group comparisons and stratifi
 
 ### 1) Install Python
 
-Download and install Python from the official website: https://www.python.org/downloads/  
+Download and install Python from the official website: https://www.python.org/downloads/ 
+We recommend Python 3.12, but 3.10 and 3.11 work as well. 
 *(Windows tip: During installation, make sure “Add Python to PATH” is checked.)*
 
 After installation, open a **new** terminal (use for all commands below):
@@ -127,7 +128,7 @@ After installation, open a **new** terminal (use for all commands below):
 **Windows (PowerShell)**
 - Press the **Windows** key, type **PowerShell**, and open **Windows PowerShell**.
   - Or press **Win + R**, type `powershell`, press **Enter**.
-- Verify Python (expected: `Python 3.X.Y` where `X >= 10`):
+- Verify Python (expected: `Python 3.X.Y` where `12 >= X >= 10`):
   ```bash
   python --version
   ```
@@ -135,7 +136,7 @@ After installation, open a **new** terminal (use for all commands below):
 **Windows (Command Prompt)**
 - Press the **Windows** key, type **Command Prompt**, and open it.
   - Or press **Win + R**, type `cmd`, press **Enter**.
-- Verify Python (expected: `Python 3.X.Y` where `X >= 10`):
+- Verify Python (expected: `Python 3.X.Y` where `12 >= X >= 10`):
   ```bash
   python --version
   ```
@@ -143,7 +144,7 @@ After installation, open a **new** terminal (use for all commands below):
 **macOS**
 - Open **Terminal**:
   - Press **⌘ + Space** to open Spotlight, type **Terminal**, press **Enter**.
-- Verify Python (expected: `Python 3.X.Y` where `X >= 10`):
+- Verify Python (expected: `Python 3.X.Y` where `12 >= X >= 10`):
   ```bash
   python3 --version
   ```
@@ -152,7 +153,7 @@ After installation, open a **new** terminal (use for all commands below):
 - Open your terminal:
   - Often **Ctrl + Alt + T** works (Ubuntu and many distros).
   - Or open the application menu and search **Terminal**.
-- Verify Python (expected: `Python 3.X.Y` where `X >= 10`):
+- Verify Python (expected: `Python 3.X.Y` where `12 >= X >= 10`):
   ```bash
   python3 --version
   ```
